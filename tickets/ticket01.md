@@ -15,7 +15,7 @@ $w(x_i, x) = 1, if x_i$ - один из k-ближайших соседей x\
 $w(x_i, x) = 1, if distance \rho(x_i, x) < R$, то же самое, что и выше, только берём не k соседей, а всех кто лежит в заданном радиусе, такое R называем **Radius Neighbors**.\
 **Важно:** векторное пространство (ВП) не нужно, только заданное растояние. Например расстояние между строками считать умеем, а ВП нет.\
 \
-<img src=https://github.com/BrudLord/ml-questions/blob/6d505d0f9b2e7e3fb2c327718e5786a2b6bea740/tickets/images/tickets01_1.png alt="kNN" width="300" align="center">
+<img src=https://github.com/BrudLord/ml-questions/blob/6d505d0f9b2e7e3fb2c327718e5786a2b6bea740/tickets/images/tickets01_1.png alt="kNN" width="300" align="center">\
 Если у нас получилось поравну нескольких классов, то чтобы конкретезировать будем брать первый по алфавиту или любой другой детерменнированной стратегии (чтобы всё повторялось).\
 \
 Для определения лучшего k (сколько брать соседей), будем смотреть на ошибку **Leave-one-out error** (LOO)\
