@@ -91,9 +91,11 @@ $x_j^L = \sigma^L(s_j^L) = \frac{e^{s_j^L}}{\sum e^{s_i^L}}$
 
 $L(w) = -\sum o_i \cdot \log(x_i^L)$ - функция ошибки. $o$ - индикатор.
 
-$o_i = \begin{cases}
+$$
+o_i = \begin{cases}
 1, y = i \\
 0, иначе
-\end{cases}$
+\end{cases}
+$$
 
 Можно сделать хитрее: взять $\log$ от выходного вектора и умножить на вектор $o$ - one hot encoding. Такой NLLL называется Cross-Entropy.
