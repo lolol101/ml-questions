@@ -35,7 +35,7 @@ h($x_i$) - то, что выдает наш классификатор\
 и часто нужно решать чем пожертвовать в определенных ситуациях.
 
 Помимо есть метрика:\
-$F_1score = \frac{2}{\frac{1}{recall}\ + \frac{1}{precision}} =2 \frac{precision\ *\ recall}{precision\ +\ recall}$
+$$F_1score = \frac{2}{\frac{1}{recall}\ + \frac{1}{precision}} =2 \frac{precision\ *\ recall}{precision\ +\ recall}$$
 
 ### Фронт Парето
 
