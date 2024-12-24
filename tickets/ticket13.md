@@ -1,7 +1,7 @@
 ## Предисловие
 
 1. Смотри презентацию 4: [ML_04_VC_Dimension.pdf](https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2FTce3Hg4R521%2FAeGvN14%2FuhhBJbYmfaf3PaCuY7embqZnn%2BiIO%2BBq00rZ5aTL40zE%2Bb3nCKLCVTJ%2BSInaOUvvHQ%3D%3D%3A%2F%D0%9B%D0%B5%D0%BA%D1%86%D0%B8%D0%B8%2FML_04_VC_Dimension.pdf&name=ML_04_VC_Dimension.pdf).
-1. Смотри лекцию 6: [YouTube](https://www.youtube.com/watch?v=8RM6OYFjW1g&list=PLxMpIvWUjaJsttwLkYi-uEydy6R9Hk2-v&index=6&ab_channel=UniversityProgramsITMO%2CHSE) (начало с 31:20; данная тема с 01:11:55).
+1. Смотри лекцию 6: [YouTube (01:11:45)](https://youtu.be/8RM6OYFjW1g?list=PLxMpIvWUjaJsttwLkYi-uEydy6R9Hk2-v&t=4305) (начало с 31:20; данная тема с 01:11:45).
 
 **О чем тут речь:**
 
@@ -33,7 +33,7 @@
 
 ### Perceptron training
 
-См. лекцию [36:20](https://www.youtube.com/watch?v=8RM6OYFjW1g&list=PLxMpIvWUjaJsttwLkYi-uEydy6R9Hk2-v&index=6&ab_channel=UniversityProgramsITMO%2CHSE) или [слайд 3](https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2FTce3Hg4R521%2FAeGvN14%2FuhhBJbYmfaf3PaCuY7embqZnn%2BiIO%2BBq00rZ5aTL40zE%2Bb3nCKLCVTJ%2BSInaOUvvHQ%3D%3D%3A%2F%D0%9B%D0%B5%D0%BA%D1%86%D0%B8%D0%B8%2FML_04_VC_Dimension.pdf&name=ML_04_VC_Dimension.pdf).
+См. лекцию [34:26](https://youtu.be/8RM6OYFjW1g?list=PLxMpIvWUjaJsttwLkYi-uEydy6R9Hk2-v&t=2066) или [слайд 3](https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2FTce3Hg4R521%2FAeGvN14%2FuhhBJbYmfaf3PaCuY7embqZnn%2BiIO%2BBq00rZ5aTL40zE%2Bb3nCKLCVTJ%2BSInaOUvvHQ%3D%3D%3A%2F%D0%9B%D0%B5%D0%BA%D1%86%D0%B8%D0%B8%2FML_04_VC_Dimension.pdf&name=ML_04_VC_Dimension.pdf).
 
 Pocket algorithm и Feature engineering там же.
 
@@ -100,7 +100,7 @@ $$ d_{VC} = d+1 $$
 
 **Док-во:**
 
-См. [лекцию](https://www.youtube.com/watch?v=8RM6OYFjW1g&list=PLxMpIvWUjaJsttwLkYi-uEydy6R9Hk2-v&index=6&ab_channel=UniversityProgramsITMO%2CHSE) на 01:14:40.
+См. лекцию на [01:13:21](https://youtu.be/8RM6OYFjW1g?list=PLxMpIvWUjaJsttwLkYi-uEydy6R9Hk2-v&t=4401).
 
 Чтобы это доказать, нужно показать 2 свойства:
 
@@ -109,7 +109,7 @@ $$ d_{VC} = d+1 $$
 
 **Док-во для (2):**
 
-Напомним, что размерность перцептрона (т.е. его весов) равна $d$. Построим матрицу размера $d+1$ x $d+1$, где первый столбец - $x_0$, который есть добавочный член в веса перцептрона (см. лекцию 4 [31:28](https://www.youtube.com/watch?v=8RM6OYFjW1g&list=PLxMpIvWUjaJsttwLkYi-uEydy6R9Hk2-v&index=6&ab_channel=UniversityProgramsITMO%2CHSE), минуты 3-4):
+Напомним, что размерность перцептрона (т.е. его весов) равна $d$. Построим матрицу размера $d+1$ x $d+1$, где первый столбец - $x_0$, который есть добавочный член в веса перцептрона (см. лекцию 6 [31:28](https://youtu.be/8RM6OYFjW1g?list=PLxMpIvWUjaJsttwLkYi-uEydy6R9Hk2-v&t=1888), минуты 3-4):
 
 ![Матрица](./images/ticket-13/3.png)
 
