@@ -83,7 +83,7 @@ $x_{scaled} = \frac{x - median(x)}{percentile_{0.75}(x)-percentile_{0.25}(x)}$
 - Было для линейно разделимой выборки:
   
 $$
-\left\{ \begin{array}{l}
+\left\lbrace \begin{array}{l}
     \frac{1}{2}w^Tw \rightarrow  \min \\
   y_i(w^Tx_i-b)\geq 1
 \end{array} \right.
@@ -92,11 +92,11 @@ $$
 - Cтало для неразделимой:
 
 $$
-\left\{ \begin{array}{l}
+\left\lbrace  \begin{array}{l}
     \frac{1}{2}w^Tw + C\sum^N_{i=1}\xi_i \rightarrow  \min \\
   y_i(w^Tx_i-b)\geq 1 - \xi_i \\
   \xi_i \geq 0
-\end{array} \right.
+\end{array}\right.
 $$
 
   $\xi_i$ — переменные ошибок, позволяющие некоторым объектам попадать в полосу или в другой класс
@@ -116,9 +116,10 @@ $$
 ## Типы опорных векторов
 
 У нас есть условия: 
+
 $$
-\left\{ \begin{array}{l}
-    w = \sum a_iy_ix_i\\
+\left\lbrace  \begin{array}{l}
+  w = \sum a_iy_ix_i\\
   y_i(w^Tx_i-b)\geq 1 - \xi_i \\
   a_i = C - r_i \\ 
   a_i(y_i(w^Tx_i-b)-1+\xi_i)=0 \\
