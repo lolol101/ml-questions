@@ -35,3 +35,5 @@
 Оставь надежду всяк сюда входящий.
 
 Лекция: https://www.youtube.com/watch?v=bZFIfWzVvUs&list=PLxMpIvWUjaJsttwLkYi-uEydy6R9Hk2-v&index=12
+
+старый конспект: https://quixotic-block-dc0.notion.site/2022-e10e3970e09f403cb3671981d4ecfef8#9bb9502033e648dd9cc36da321c83388
