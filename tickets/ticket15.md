@@ -32,3 +32,6 @@
 
 ## 15.2) Ансамбли. Градиентный бустинг решающих деревьев. XGBoost.
 
+Оставь надежду всяк сюда входящий.
+
+Лекция: https://www.youtube.com/watch?v=bZFIfWzVvUs&list=PLxMpIvWUjaJsttwLkYi-uEydy6R9Hk2-v&index=12
