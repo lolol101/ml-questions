@@ -37,7 +37,7 @@ H_{\epsilon}(z) = \begin{cases}
  z^2, & \text{if } |z| < \epsilon \\
  2\epsilon|z| - \epsilon^2, & \text{if } |z| \geq \epsilon
 \end{cases}
-$$
+$$  
 Здесь sigma - обучаемый параметр, а epsilon - гиперпараметр (типично выбирать 1.35)
 Из-за усложнения функции обучение приходится делать градиентным спуском.
 
